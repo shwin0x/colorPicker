@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div>
+        <form id="inputForm">
+            <input id="colorPicker" type="color">
+            <select id="modePicker">
+                <option value="monochrome">Monochrome</option>
+                <option value="monchrome-dard">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button type="submit">Get color scheme</button>
+        <form>
+       </div>     
+        <div id="colorOutput">
+            <div id="firstColor"></div>
+            <div id="secondColor"></div>
+            <div id="thirdColor"></div>
+            <div id="fourthColor"></div>
+            <div id="fifthColor"></div>
+        </div>
+        
+        <div id="hexcodes">
+            <div id="firstColorHex"></div>
+            <div id="secondColorHex"></div>
+            <div id="thirdColorHex"></div>
+            <div id="fourthColorHex"></div>
+            <div id="fifthColorHex"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    padding: 0;
+    height: 550px;
+    width: 550px;
+    text-align: center;
+}
+
+#colorPicker{
+   height: 42px;
+   width: 61px;
+   border: 1px solid #D1D5DB;
+   border-radius: 5px;
+}
+
+#inputForm{
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    padding: 10px;
+    font-size: 10px;
+    justify-content: space-around;
+}
+
+button{
+    height: 42px;
+    width: 123px;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#modePicker{
+    height: 42px;
+    width: 312px;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#colorOutput{
+    display: flex;
+    
+}
+
+#firstColor,#secondColor,#thirdColor,#fourthColor,#fifthColor {
+    width: 20%;
+    height: 414px;
+
+}
+
+#hexcodes{
+    padding: 5px;
+    display: flex;
+}
+
+#firstColorHex,#secondColorHex,#thirdColorHex,#fourthColorHex,#fifthColorHex {
+    width: 20%;
+}
